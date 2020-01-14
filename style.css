@@ -1,0 +1,95 @@
+body {
+	background-image: url('images/texture.jpg');
+	background-repeat: no-repeat;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+main {
+	position: relative;
+	margin-right: auto;
+	background-color: #DDDDDD;
+	top: 30px;
+	left: 30px;
+	width: 370px;
+	height: 505;
+	border: 1px solid #666666;
+	border-radius: 5px;
+}
+ul {
+	position: absolute;
+	display: flex;
+	list-style: none;
+	height: 50px;
+	margin-top: 10px;
+	z-index: 1;
+}
+li {
+	margin-right: 10px;
+}
+form {
+	width: 350px;
+	margin: 10px;
+	margin-top: 30px;
+	background-color: #DAE5F1;
+	border: 1px solid #8E9CAD;
+	border-radius: 3px;
+}
+fieldset {
+	top: 10px;
+	left: 15px;
+	position: relative;
+	width: 280px;
+	height: 50px;
+	background-color: #fff;
+	text-align: right;
+	border-radius: 5px;
+}
+#status1 {
+	position: absolute;
+	top: 0px;
+	right: 3px;
+	width: 298px;
+	height: 1.5em;
+	text-align: right;
+	border: none;
+	
+}
+#display1 {
+	position: absolute;
+	bottom: 1px;
+	right: 3px;
+	width: 298px;
+	height: 2em;
+	text-align: right;
+	border: none;
+	font-weight: bold;
+	font-size: 1.1em;
+	
+}
+.buttons {
+	margin-top: 10px;
+	padding: 10px;
+}
+button {
+	width: 50px;
+	height: 50px;
+	margin: 5px;
+	border: 1px solid #8797AA;
+	border-radius: 4px;
+}
+button:hover {
+	background-color: #FFDD00;
+}
+button:active {
+	background-color: orange;
+}
+
+button[name="0"] {
+	width: 115px;
+}
+button[name="="] {
+	position: absolute;
+	height: 110px;
+	margin-left: 9px;
+}
