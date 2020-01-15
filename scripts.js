@@ -75,7 +75,6 @@ function calc_keyboard_pressed (e) {
 			func_clear_operand ();
 		break;
 	};
-	
 };
 
 //функция присваивает calc_event значение при нажатом элементе button
@@ -453,3 +452,4 @@ function func_error() {
 	};
 	document.getElementById('C').disabled = false;
 };
+// comment
